@@ -14,7 +14,7 @@ a:hover {
 .social-logo {
   width: 24px; /* Original width */
   height: 24px; /* Original height */
-  filter: brightness(0) saturate(100%) invert(12%) sepia(85%) saturate(6684%) hue-rotate(358deg) brightness(87%) contrast(103%); /* Change to #aa0100 */
+/*   filter: brightness(0) saturate(100%) invert(12%) sepia(85%) saturate(6684%) hue-rotate(358deg) brightness(87%) contrast(103%); /* Change to #aa0100 */ */
   transition: transform 0.3s, filter 0.3s; /* Smooth transition */
   margin-right: 10px; /* Add space between logos */
 }

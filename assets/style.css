@@ -54,9 +54,10 @@ a:hover {
 }
 
 .profilepic {
-    width: 150px;
-    border-radius: 40%;
-    /* filter: grayscale(100%); */
+    width: 200px; /* Set width */
+    height: 200px; /* Ensure height is equal to width */
+    border-radius: 50%; /* Set border-radius to 50% to make it circular */
+    object-fit: cover; /* Ensures the image maintains aspect ratio and fits within the circle */
 }
 
 @media (min-width: 768px) {

@@ -78,11 +78,12 @@ a:hover {
     }
 
     .profilepic {
-        width: 90px;
-        border-radius: 40%;
+        width: 90px; /* Set width */
+        height: 90px; /* Ensure height is equal to width */
+        border-radius: 50%; /* Set border-radius to 50% to make it circular */
+        object-fit: cover; /* Ensures the image maintains aspect ratio and fits within the circle */
         padding-top: 0px !important;
         padding-bottom: 0px !important;
-        /* filter: grayscale(100%); */
     }
 
     .menur {

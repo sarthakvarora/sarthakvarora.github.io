@@ -11,6 +11,18 @@ a:hover {
     /* color: #444; */
 }
 
+.social-logo {
+  width: 24px; /* Original width */
+  height: 24px; /* Original height */
+  filter: brightness(0) saturate(100%) invert(39%) sepia(91%) saturate(2413%) hue-rotate(319deg) brightness(107%) contrast(102%); /* Change to magenta */
+  transition: transform 0.3s, filter 0.3s; /* Smooth transition */
+  margin-right: 10px; /* Add space between logos */
+}
+
+.social-logo:hover {
+  transform: scale(1.2); /* Slightly increase size on hover */
+}
+
 
 .noter {
     font-size: 9pt;

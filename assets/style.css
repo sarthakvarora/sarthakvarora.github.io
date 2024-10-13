@@ -60,7 +60,7 @@ a:hover {
     object-fit: cover; /* Ensures the image maintains aspect ratio and fits within the circle */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1268px) {
     .fixed-posi {
         /* width: 50%;
             margin-left: 50%;

@@ -44,9 +44,13 @@ a:hover {
     display: inline-block;
     padding-bottom: 4px;
 }
-
+/* 
 .paper {
     border-left: 1px solid #ddd;
+} */
+.paper {
+    border-left: 1px solid #ddd;
+    overflow-wrap: break-word; /* Allows long words to break */
 }
 
 .menulink:hover {

@@ -11,13 +11,6 @@ a:hover {
     /* color: #444; */
 }
 
-.container {
-    max-width: 100%; /* Ensure the container can expand fully */
-}
-.col-md-8 {
-    width: 100%; /* Override if needed */
-}
-
 .social-logo {
   width: 24px; /* Original width */
   height: 24px; /* Original height */
@@ -29,7 +22,6 @@ a:hover {
 .social-logo:hover {
   transform: scale(1.2); /* Slightly increase size on hover */
 }
-
 
 .noter {
     font-size: 9pt;
@@ -57,7 +49,6 @@ a:hover {
 } */
 .paper {
     border-left: 1px solid #ddd;
-    white-space: nowrap;
 }
 
 .menulink:hover {

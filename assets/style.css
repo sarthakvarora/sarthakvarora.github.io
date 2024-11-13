@@ -11,6 +11,13 @@ a:hover {
     /* color: #444; */
 }
 
+.container {
+    max-width: 100%; /* Ensure the container can expand fully */
+}
+.col-md-8 {
+    width: 100%; /* Override if needed */
+}
+
 .social-logo {
   width: 24px; /* Original width */
   height: 24px; /* Original height */
@@ -50,7 +57,7 @@ a:hover {
 } */
 .paper {
     border-left: 1px solid #ddd;
-    overflow-wrap: break-word; /* Allows long words to break */
+    white-space: nowrap;
 }
 
 .menulink:hover {

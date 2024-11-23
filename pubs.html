@@ -31,7 +31,7 @@
     </header> 
     -->
 
-  <header class="d-flex justify-content-between align-items-center p-3 mb-5 border-bottom sticky-header">
+  <header class="d-flex justify-content-between align-items-center p-3 mb-5 border-bottom fixed-header">
     <a class="name" target="_self" href=".">Sarthak Arora</a>
     <div class="d-flex">
       <a class="menulink mr-3" target="_self" href="pubs.html">publications</a>
@@ -39,16 +39,17 @@
     </div>
   </header>
   
-  <style>
-    .sticky-header {
-      position: sticky;
-      top: 0; /* Keeps the header at the top of the page */
-      z-index: 1000; /* Ensures it stays above other content */
-      background-color: white; /* Prevents content from showing through */
-    }
-  </style>
+<style>
+  .fixed-header {
+    position: fixed;
+    top: 0; /* Sticks the header to the top */
+    width: 100%; /* Ensures the header spans the full width of the page */
+    z-index: 1000; /* Keeps it above other content */
+    background-color: white; /* Prevents content from showing through */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for better visibility */
+  }
+</style>
 
-    
     <!-- <h1>Hello, world!</h1> -->
     <div class="container pt-2 allstuffp">
         <div class="row pt-2 allstuff">

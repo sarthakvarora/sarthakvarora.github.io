@@ -95,6 +95,66 @@ a:hover {
 
 }
 
+/* Header styling */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1000;
+    padding: 1rem 2rem !important;
+}
+
+/* Base styles */
+body {
+    padding-top: 30px;
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+/* Content styling */
+.about p {
+    margin-bottom: 2rem;
+    color: #2c2c2c;
+    max-width: 90ch;
+}
+
+.container.allstuffp {
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+/* Link styling */
+.in-text {
+    color: #2c2c2c;
+    border-bottom: 1px solid #ddd;
+    text-decoration: none;
+    transition: border-bottom-color 0.2s;
+}
+
+.in-text:hover {
+    border-bottom-color: #666;
+    text-decoration: none;
+}
+
+/* Social icons */
+.social-logo {
+    width: 24px;
+    height: 24px;
+    margin: 0 8px;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.social-logo:hover {
+    opacity: 1;
+}
+
+.menulink.active {
+    border-bottom: 1.5px solid #dc3545;
+    padding-bottom: 1.5px;
+}
 /* .thisauthor {
           color: #111;
           text-decoration: underline;
